@@ -33,8 +33,8 @@ class _SurpriseScreenState extends State<SurpriseScreen> {
                   child: Center(
                     child: Center(
                       child: AutoSizeText(
-                       'Oops something went wrong!!\n\nTry scanning the QR code inside',
-                        // widget.cmp,
+                       // 'Oops something went wrong!!\n\nTry scanning the QR code inside',
+                        widget.cmp,
                         maxLines: 4,
                         minFontSize: 18,
                         maxFontSize: 24,
