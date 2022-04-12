@@ -1,5 +1,6 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
+import 'package:untitled/main.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class SurpriseScreen extends StatefulWidget {
@@ -32,8 +33,9 @@ class _SurpriseScreenState extends State<SurpriseScreen> {
                   child: Center(
                     child: Center(
                       child: AutoSizeText(
-                        widget.cmp,
-                        maxLines: 2,
+                       'Oops something went wrong!!\n\nTry scanning the QR code inside',
+                        // widget.cmp,
+                        maxLines: 4,
                         minFontSize: 18,
                         maxFontSize: 24,
                         textAlign: TextAlign.center,
@@ -41,6 +43,7 @@ class _SurpriseScreenState extends State<SurpriseScreen> {
                           fontFamily: 'Ubuntu',
                           fontSize: 20,
                           letterSpacing: 1,
+                          color: Color(0xFFde1835),
                         ),
                       ),
                     ),
