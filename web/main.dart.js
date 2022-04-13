@@ -48264,7 +48264,7 @@ A.BN.prototype={}
 A.qw.prototype={
 aG(){return new A.El(B.p)}}
 A.El.prototype={
-be(){var s=B.tr.TN(7)
+be(){var s=B.tr.TN(6)
 this.d=s
 if(B.d.v($.a6H[s],"premium octane"))this.e=!0
 this.bx()},
@@ -52271,7 +52271,7 @@ $.RL=0
 $.eW=null
 $.afW=!1
 $.aR=null
-$.a6H=A.a(["Your style is everything!","I am Siri-ously in love with your outfit","You know, I'm premium octane and not regular unleaded like the rest","If you were a label, it would be for a really premium brand","If you were a fruit, you would be a fine-Apple","The only thing wrong with IOS 15 is that it didn't come with your number","You\u2019re more precious than the latest Apple model released"],t.s)
+$.a6H=A.a(["Your style is everything!","I am Siri-ously in love with your outfit","You know, I'm premium octane and not regular unleaded like the rest","If you were a label, it would be for a really premium brand","If you were a fruit, you would be a fine-Apple","You\u2019re more precious than the latest Apple model released"],t.s)
 $.adP=A.x(t.S,A.R("akS"))})();(function lazyInitializers(){var s=hunkHelpers.lazyFinal,r=hunkHelpers.lazy
 s($,"am7","bp",()=>A.aiX(A.vJ().navigator.vendor,B.d.CQ(A.vJ().navigator.userAgent)))
 s($,"amC","cY",()=>A.aiZ())
